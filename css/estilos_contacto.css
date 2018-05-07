@@ -1,0 +1,199 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+*{font-family: 'Shrikhand', cursive;
+
+}
+
+
+
+p{
+
+font-size:20px; 
+
+}
+
+p{
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+
+.contenedor{
+  background-color: #F8F8FF;
+  padding-right: 80px;
+  padding-left: 80px;
+
+  
+
+}
+
+
+.seccion_uno{
+  background-color: white;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top:30px;
+  padding-bottom: 400px;
+  background-color: white;
+  border-top: solid;
+  background-image:url("../img/contacto.jpg" ); 
+  background-repeat:no-repeat;
+  height:auto;
+  width:100%;
+  background-size:cover;
+  color: white;
+  margin-top: -25px;
+
+  
+
+}
+
+.seccion_dos{
+  background-color: white;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top:30px;
+  padding-bottom:30px;
+  border-top: solid;
+  background-color: white;
+  border-top: solid;
+
+}
+
+.seccion_uno form{
+ 
+  padding-right: 200px;
+  padding-left: 320px;
+ 
+
+}
+
+.seccion_dos iframe{
+ 
+  padding-right: 170px;
+  padding-left: 80px;
+ 
+
+}
+
+
+
+
+
+footer{
+  background-color: black;
+  color:white;
+
+}
+
+
+
+
+
+@media (max-width: 600px) {
+   .seccion_dos{
+              
+        padding-left:0px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+
+    }
+}
+
+@media (max-width: 600px) {
+   .seccion_dos iframe{
+              
+         padding-right: 0px;
+         padding-left: 0px;
+
+    }
+}
+
+
+
+
+/*dddd*/
+
+@media (max-width: 600px) {
+   .contenedor{
+       
+        padding-right: 30px;
+        padding-left: 30px;
+        
+    }
+}
+
+@media (max-width: 600px) {
+   .seccion_uno{
+          background-color: white;
+          padding-right: 0px;
+          padding-left: 0px;
+          padding-top:50px;
+          padding-bottom: 430px;
+          background-color: white;
+          border-top: solid;
+          margin-top: -20px;
+        
+    }
+}
+
+
+
+
+@media (max-width: 600px) {
+   .seccion_uno form{
+         padding-right: 0px;
+         padding-left: 20px;
+
+        
+    }
+}
+
+@media (max-width: 600px) {
+    form {
+        font-size:12px;
+    }
+}
+
+@media (max-width: 600px) {
+    form  #asunto,form  #email,form  #nombre,form  #contenido{
+        width: 100px;
+    }
+}
+
+@media (max-width: 600px) {
+    form #consultar,form #cancelar{
+        font-size:8px;
+        width: 53px;
+    }
+}
+
+
+@media (max-width: 600px) {
+    footer h5 {
+        font-size:8px;
+    }
+}
+
+@media (max-width: 600px) {
+    nav div .casa  {
+        font-size:12px;
+    }
+}
+
+
+
+@media (max-width: 600px) {
+    nav div ul li {
+        font-size:10px;
+    }
+}
+
+
+
+
+
+
+

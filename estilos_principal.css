@@ -1,0 +1,31 @@
+
+
+.contenedor{
+	background-color: blue;
+	padding-right: 100px;
+	padding-left: 100px;
+
+}
+
+.otro{
+	background-color: green;
+	padding-right: 100px;
+	padding-left: 100px;
+
+}
+
+#estatura,#peso,#edad{
+	display:none;
+
+}
+
+
+/*
+.presentacion{
+	background-image:url("prueba.png" ); 
+	background-repeat:no-repeat;
+	height:250px;
+	width:100%;
+	background-size:cover;
+}
+*/
